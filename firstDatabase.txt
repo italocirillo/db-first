@@ -1,0 +1,24 @@
+********************************
+*          AUTO USATE          *
+********************************
+
+id [INT(UNSIGNED)] - PRIMARY_KEY(UNIQUE -NOT NULL) - AUTO_INCREMENT 
+marca [VARCHAR(20)] - NOT NULL 
+modello [VARCHAR(20)] - NOT NULL
+anno_immatricolazione [YEAR]  
+chilometraggio [BIGINT(UNSIGNED)] - NOT NULL
+prezzo [DECIMAL(10,2)] - NOT NULL
+condizioni [TEXT] 
+tipo_carburante [VARCHAR(10)] - NOT NULL
+cambio [VARCHAR(10)] - DEFAULT ('MANUALE')
+carozzeria [VARCHAR(10)] 
+posti [TINYINT] - DEFAULT(5)
+porte [TINYINT] DEFAULT (5)
+colore [VACRHAR(10)] 
+potenza [SMALLINT(UNSIGNED)] - NOT NULL
+cilindrata [SMALLINT(UNSIGNED)] -NOT NULL
+sistemi_di_sicurezza [VARCHAR(10)]
+sistema_di_navigazione [TINYINT] 
+sistema_audio [TINYINT]
+
+********************************
